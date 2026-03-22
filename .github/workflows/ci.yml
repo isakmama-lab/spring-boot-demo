@@ -2,7 +2,7 @@ name: CI
 on: [push]
 jobs:
   build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2        #코드를runner로가져오는GitHub공식action 
       - run: echo"Hello,DevOps!"
